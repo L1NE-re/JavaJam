@@ -1,7 +1,6 @@
     body {background-color: #FCEBB6;
-    color: #221811;
-    background-image: url(background.gif);}
-    header {background-color: #D2B48C;text-align: left; height: 150px;}
+    color: #221811;}
+    header {background-color: #D2B48C; text-align: left; height: 150px;}
     h1 {line-height: 150px}
     nav {font-weight: bold;
     text-align: center;}
@@ -11,3 +10,4 @@
     margin-right: auto;
     width: 80%;}
     nav a {text-decoration: none;}
+    main {background-image: url(background.gif);}
