@@ -9,3 +9,4 @@ body {background-color: #FCEBB6;
     #wrapper {margin-left: auto;
     margin-right: auto;
     width: 80%;}
+    nav a {text-decoration: none;}
