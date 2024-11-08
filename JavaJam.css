@@ -58,7 +58,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    background-color: #FCEBB6;
+    background-color: #231814;
     min-width: 900px;
     max-width: 1280px;
 }
@@ -76,7 +76,9 @@ h4 {
     background-color: #D2B481;
     font-size: 1.2em;
     padding-left: .5em;
-    padding-bottom: .25em;
+    padding-bottom: 0;
+    border-bottom-style: solid;
+    text-transform: uppercase;
 }
 
 main {
@@ -131,6 +133,13 @@ main dl {
 #details {
     padding-left: 20%;
     padding-right: 20%;
+        padding-bottom: 2em;
+}
+
+#floatleft {
+    float: left;
+    padding-right: 2em;
+    padding-bottom: 2em;
 }
 
 img {
