@@ -25,6 +25,25 @@ nav {
     text-align: center;
     font-size: 1.5em;
     padding-top: 10px;
+    float: left;
+    width: 200px;
+}
+
+nav :link {
+    color: #FEF6C2;
+}
+
+nav :visited {
+    color: #D2B48C;
+}
+
+nav :hover {
+    color: #CC9933;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 0;
 }
 
 footer {
@@ -61,9 +80,52 @@ h4 {
 }
 
 main {
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 0;
+    padding-right: 0;
     padding-bottom: 2em;
+    padding-top: 0;
+    margin-left: 200px;
+    background-color: #FEF6C2;
+}
+
+main h1 {
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+main h2 {
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+main h3 {
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+main h4 {
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+main p {
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+main div {
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+main ul {
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+main dl {
+    padding-left: 3em;
+    padding-right: 2em;
 }
 
 #details {
