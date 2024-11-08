@@ -12,6 +12,7 @@ header {
     height: 150px;
     background-image: url(javajamlogo.jpg);
     background-repeat: no-repeat;
+    display: block;
 }
 
 h1 {
@@ -27,6 +28,7 @@ nav {
     padding-top: 10px;
     float: left;
     width: 200px;
+    display: block;
 }
 
 nav :link {
@@ -52,6 +54,7 @@ footer {
     text-align: center;
     background-color: #D2B48C;
     padding-bottom: 10px;
+    display: block;
 }
 
 #wrapper {
@@ -88,6 +91,7 @@ main {
     padding-top: 0;
     margin-left: 200px;
     background-color: #FEF6C2;
+    display: block;
 }
 
 main h1 {
@@ -133,7 +137,8 @@ main dl {
 #details {
     padding-left: 20%;
     padding-right: 20%;
-        padding-bottom: 2em;
+    padding-bottom: 2em;
+    overflow: auto;
 }
 
 #floatleft {
