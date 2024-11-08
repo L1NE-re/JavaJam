@@ -77,19 +77,19 @@ img {
 }
 
 #heroroad {
-    background-image: src="heroroad.jpg";
+    background-image: url(heroroad.jpg);
     background-size: 100%;
     height: 250px;
 }
 
 #heromugs {
-    background-image: src="heroroad.jpg";
+    background-image: url(heromugs.jpg);
     background-size: 100%;
     height: 250px;
 }
 
 #heroguitar {
-    background-image: src="heroroad.jpg";
+    background-image: url(heroguitar.jpg);
     background-size: 100%;
     height: 250px;
 }
