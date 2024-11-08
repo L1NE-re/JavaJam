@@ -1,38 +1,95 @@
-body {color: #221811;
-background-image: url(background.gif);}
-header {background-color: #D2B48C; 
-height: 150px; 
-background-image: url(javajamlogo.jpg);
-background-repeat: no-repeat;}
-h1 {padding-top: 45px; 
-padding-left: 220px;
-font-size: 3em;}
-nav {font-weight: bold;
-text-align: center;
-font-size: 1.5em;
-padding-top: 10px;}
-footer {font-size: .60em;
-font-style: italic;
-text-align: center;
-background-color: #D2B48C;
-padding-bottom: 10px;}
-#wrapper {margin-left: auto;
-margin-right: auto;
-width: 80%;
-background-color: #FCEBB6;
-min-width: 900px;
-max-width: 1280px;}
-nav a {text-decoration: none;}
-#details {padding-left: 20%;
-padding-right: 20%;}
-h4 {background-color: #D2B481;
-font-size: 1.2em;
-padding-left: .5em;
-padding-bottom: .25em;}
-main {padding-left: 2em;
-padding-right: 2em;
-padding-bottom: 2em;}
-#details {padding-left: 20%;
-padding-right: 20%;}
-img {padding-left: 10px;
-padding-right: 10px;}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #221811;
+    background-image: url(background.gif);
+}
+
+header {
+    background-color: #D2B48C;
+    height: 150px;
+    background-image: url(javajamlogo.jpg);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    padding-top: 45px;
+    padding-left: 220px;
+    font-size: 3em;
+}
+
+nav {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 10px;
+}
+
+footer {
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    background-color: #D2B48C;
+    padding-bottom: 10px;
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #FCEBB6;
+    min-width: 900px;
+    max-width: 1280px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+#details {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+h4 {
+    background-color: #D2B481;
+    font-size: 1.2em;
+    padding-left: .5em;
+    padding-bottom: .25em;
+}
+
+main {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+#details {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#heroroad {
+    background-image: src="heroroad.jpg";
+    background-size: 100%;
+    height: 250px;
+}
+
+#heromugs {
+    background-image: src="heroroad.jpg";
+    background-size: 100%;
+    height: 250px;
+}
+
+#heroguitar {
+    background-image: src="heroroad.jpg";
+    background-size: 100%;
+    height: 250px;
+}
